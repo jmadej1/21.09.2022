@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze</title>
+</head>
+
+<body>
+
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="text" size="40" maxlength="35"/>
+
+            <p>Formularz typu text, bez domyślnej odpowiedzi,<br>
+            rozmiar 40 znaków, dopuszczalna ilość znaków 35</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="text" size="40" maxlength="35" value="formularz_text"/>
+
+            <p>Formularz typu text, domyślna odpowiedź,<br>
+            rozmiar 40 znaków, dopuszczalna ilość znaków 35</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="text" size="40" maxlength="35" value="formularz_text" disabled="disabled"/>
+
+            <p>Formularz typu text, domyślna odpowiedź,<br>
+            rozmiar 40 znaków, dopuszczalna ilość znaków 35,<br>
+            pole zablokowane</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="text" size="40" maxlength="35" value="jakiś tekst"/>
+
+            <p>Formularz typu text, bez domyślnej odpowiedzi,<br>
+            rozmiar 40 znaków, dopuszczalna ilość znaków 35</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="text" size="40" maxlength="35" value="zmieniony tekst"/>
+
+            <p>Formularz typu text, domyślna odpowiedź,<br>
+            rozmiar 40 znaków, dopuszczalna ilość znaków 35</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="text" size="40" maxlength="35" value="formularz_text" disabled="disabled"/>
+
+            <p>Formularz typu text, domyślna odpowiedź,<br>
+            rozmiar 40 znaków, dopuszczalna ilość znaków 35,<br>
+            pole zablokowane</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="password" size="25" maxlength="20"/>
+
+            <p>Formularz typu password,<br>
+            rozmiar 25 znaków, dopuszczalna ilość znaków 20</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="radio"/>Tak
+            <input type="radio"/>Nie 
+            <input type="radio"/>Nie wiem
+
+            <p>Formularz radio, tylko jedna możliwość</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="radio"/>Tak
+            <input type="radio" checked="checked"/>Nie 
+            <input type="radio"/>Nie wiem
+
+            <p>Formularz radio, tylko jedna możliwość,<br>
+            domyślna odpowiedź "Nie"</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="checkbox"/>Tak
+            <input type="checkbox" checked="checked"/>Nie 
+            <input type="checkbox"/>Nie wiem
+
+            <p>Formularz typu checkbox, można wybrać więcej,<br>
+            domyślna odpowiedź "Nie"</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="checkbox"/>Tak
+            <input type="checkbox"/>Nie 
+            <input type="checkbox"/>Nie wiem
+
+            <p>Formularz typu checkbox, można wybrać więcej,</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="checkbox" checked="checked"/>Tak
+            <input type="checkbox" checked="checked"/>Nie 
+            <input type="checkbox" checked="checked"/>Nie wiem
+
+            <p>Formularz typu checkbox, można wybrać więcej,</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="submit" value="Wyślij"/>
+
+            <p>Przycisk wysłania formularza z określonym napisem</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="text" size="40" maxlength="35" value="formularz_text"/><br>
+            <input type="image" src="grafiki//image.png" alt="Wyślij" />Wyślij
+
+            <p>Przycisk obrazkowy wysłania formularza</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="text" size="40" maxlength="35"/>
+            <input type="reset" value="Resetuj"/>
+
+            <p>Przycisk kasowania wpisanych danych w polu tekstowym</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="button" value="Przycisk"/>
+
+            <p>Przycisk wykonany za pomocą input typu button</p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <button>Dowolna treść</button>
+
+            <p>Przycisk wykonany za pomocą znacznika <button>...</button></p>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+        <div>
+            
+            <input type="text" size="40" maxlength="35"/>
+            <input type="file"/>
+
+            <p>Pole wyboru pliku, który ma być wysłany</p>
+        </div>
+    </form>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+    <select>
+
+        <option>Odpowiedź 1</option>
+        <option>Odpowiedź 2</option>
+        <option>Odpowiedź 3</option>
+        <option>Odpowiedź 4</option>
+        <option>Odpowiedź 5</option>
+        <option>Odpowiedź 6</option>
+        <option>Odpowiedź 7</option>
+
+    </select>  
+
+            <p>Lista rozwijana, o określonej wielkości,<br>
+            z jedną domyślną odpowiedzią</p>
+    
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+    <select multiple="multiple">
+
+        <option>Odpowiedź 1</option>
+        <option>Odpowiedź 2</option>
+        <option>Odpowiedź 3</option>
+        <option>Odpowiedź 4</option>
+        <option>Odpowiedź 5</option>
+        <option>Odpowiedź 6</option>
+        <option>Odpowiedź 7</option>
+        <option>Odpowiedź 8</option>
+        <option>Odpowiedź 9</option>
+        <option>Odpowiedź 10</option>
+        <option>Odpowiedź 11</option>
+
+    </select>  
+
+            <p>Lista rozwijana, o określonej wielkości,<br>
+            z możliwością zaznaczenia większej ilości odpowiedzi za pomocą klawisza Ctrl</p>
+    
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+
+        <textarea cols="25" rows="25">
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt ex a tempor euismod. Integer imperdiet ipsum lacus, ut posuere justo vulputate ac. Integer eget lacus ante. Suspendisse non augue ac metus mattis eleifend semper at ex. Nam pulvinar ut leo et tempor. Sed ac commodo ligula. Pellentesque mauris ipsum, scelerisque et lorem eu, elementum porttitor nisl. Praesent vel augue sed tellus placerat viverra eu vel neque. Aliquam pulvinar feugiat tempor. Proin ligula lectus, rhoncus vitae mattis nec, varius ut est. Suspendisse aliquet nisl consectetur, venenatis ex at, commodo lacus. Quisque posuere semper augue. Nulla urna massa, ultrices sed lectus vel, sollicitudin tempus mauris. Maecenas elementum dignissim nibh, a ultrices ligula pretium at. Vivamus nec dui non nibh malesuada facilisis sed vitae sem. Donec auctor vel sapien non feugiat.
+
+        </textarea>
+
+            <p>Wielowierszowe pole tekstowe, 25 kolumn, 25 wierszy,<br>
+            z możliwością modyfikacji</p>
+    
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+
+        <textarea cols="25" rows="25">
+
+            Wpisany inny tekst
+            Można modyfikować
+
+        </textarea>
+
+            <p>Wielowierszowe pole tekstowe, 25 kolumn, 25 wierszy,<br>
+            z możliwością modyfikacji</p>
+    
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+
+        <textarea cols="25" rows="25" readonly="readonly">
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt ex a tempor euismod. Integer imperdiet ipsum lacus, ut posuere justo vulputate ac. Integer eget lacus ante. Suspendisse non augue ac metus mattis eleifend semper at ex. Nam pulvinar ut leo et tempor. Sed ac commodo ligula. Pellentesque mauris ipsum, scelerisque et lorem eu, elementum porttitor nisl. Praesent vel augue sed tellus placerat viverra eu vel neque. Aliquam pulvinar feugiat tempor. Proin ligula lectus, rhoncus vitae mattis nec, varius ut est. Suspendisse aliquet nisl consectetur, venenatis ex at, commodo lacus. Quisque posuere semper augue. Nulla urna massa, ultrices sed lectus vel, sollicitudin tempus mauris. Maecenas elementum dignissim nibh, a ultrices ligula pretium at. Vivamus nec dui non nibh malesuada facilisis sed vitae sem. Donec auctor vel sapien non feugiat.
+
+        </textarea>
+
+            <p>Wielowierszowe pole tekstowe, 25 kolumn, 25 wierszy,<br>
+            tylko do odczytu</p>
+    
+    </form>
+    <br>
+    <br>
+    <br>
+    <form enctype="text/plain">
+
+        <fieldset>
+        <legend align="left">Formularz zbiorczy</legend>
+
+        <input type="text" size="40" maxlength="35"/>Podaj login
+        <br>
+        <br>
+        <input type="password" size="25" maxlength="20"/>Podaj tajemne hasło
+        <br>
+        <br>
+        Czy lubisz HTML'a?
+        <input type="radio"/>Tak
+        <input type="radio"/>Nie 
+        <input type="radio"/>Nie wiem
+        <br>
+        <br>
+        Jakie znasz języki programowania?
+        <input type="checkbox"/>Visual Basic
+        <input type="checkbox"/>Java
+        <input type="checkbox"/>C++
+        <input type="checkbox"/>PHP
+        <input type="checkbox"/>JavaScript
+        <input type="checkbox"/>C#
+        <br>
+        <br>
+        <select multiple="multiple">
+
+            <option>Odpowiedź 1</option>
+            <option>Odpowiedź 2</option>
+            <option>Odpowiedź 3</option>
+            <option>Odpowiedź 4</option>
+            <option>Odpowiedź 5</option>
+            <option>Odpowiedź 6</option>
+            <option>Odpowiedź 7</option>
+
+        </select>Zaznacz właściwą odpowiedź - może być więcej  
+        <br>
+        <br>
+        <textarea cols="50" rows="3">
+
+        </textarea>Opisz w 200 słowach zalety HTML'a
+        <br>
+        <br>
+        <input type="text" size="40" maxlength="35"/>
+        <input type="file"/>Dodaj plik
+        <br>
+        <br>
+        <input type="reset" value="Reset"/>Skasuj, jeżeli się pomyliłeś
+        <br>
+        <br>
+        <input type="image" src="grafiki//image.png" alt="Wyślij" />Wyślij
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
